@@ -1,0 +1,22 @@
+{
+  "name": "get-picute",
+  "version": "1.0.0",
+  "description": "Just an extension to open images in other tab",
+  "main": "main.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanassis/getPicture.git"
+  },
+  "author": "allan assis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allanassis/getPicture/issues"
+  },
+  "homepage": "https://github.com/allanassis/getPicture#readme"
+}

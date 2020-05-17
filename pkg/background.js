@@ -26,12 +26,12 @@ chrome.tabs.onRemoved.addListener((tabId, {windowId, isClosing}) => {
 
 function State(){
   var activeState = {
-    icon: "active.png",
+    icon: "icons/active.png",
     active: true
   }
 
   var inactiveState = {
-    icon: "inactive.png",
+    icon: "icons/inactive.png",
     active: false
   }
 

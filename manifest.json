@@ -1,0 +1,19 @@
+{
+    "name": "Look",
+    "version": "1.0",
+    "description": "An extension to open imagens",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+      "default_icon": "inactive.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["content.js"]
+        }
+      ],
+    "manifest_version": 2
+  }

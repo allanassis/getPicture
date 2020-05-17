@@ -1,12 +1,8 @@
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
-        console.log("aqui meu mermao")
-        console.log("oi?", request.oi)
         if(request.active){
-            console.log("Ativando...")
             start()
         } else if (!request.active){
-            console.log("Desativando...")
             stop()
         }
     }
